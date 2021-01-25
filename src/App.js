@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import Movie from './Movie';
-
+import "./App.css"
 class App extends React.Component{
   state={
     isLoading:true,
@@ -18,18 +18,28 @@ class App extends React.Component{
   render(){ //순서상 2번
     const {isLoading, movies}=this.state;
     return (
-    <div>
-      {this.state.isLoading ? "Loading..."
-      : movies.map(movie =>{
-        return <Movie 
-        key={movie.id}
-        id={movie.id} 
-        year={movie.year} 
-        title={movie.title} 
-        summary={movie.summary} 
-        poster={movie.medium_cover_image} />;
-      })}
-    </div>);
+    <section className="container">
+      {this.state.isLoading ? (
+        <div className="loader">
+          <span className="loader_text">Loading..</span>
+        </div>
+      ) : (
+        <div className="movies">
+          {movies.map(movie=>(
+            <Movie 
+            key={movie.id}
+            id={movie.id} 
+            year={movie.year} 
+            title={movie.title} 
+            summary={movie.summary} 
+            poster={movie.medium_cover_image}
+            genres={movie.genres} 
+            />
+          ))}
+        </div>
+      )
+      }
+    </section>);
   }
 }
 export default App;

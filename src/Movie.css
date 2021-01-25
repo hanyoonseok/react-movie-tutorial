@@ -1,0 +1,10 @@
+.movies{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.mmovie{
+    justify-content: center;
+    width:250px;
+    margin-right:15px;
+}
