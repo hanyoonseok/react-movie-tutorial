@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hanyoonseok/react-movie-tutorial/static/css/main.15140509.chunk.css",
+    "main.js": "/hanyoonseok/react-movie-tutorial/static/js/main.024b2fdd.chunk.js",
+    "main.js.map": "/hanyoonseok/react-movie-tutorial/static/js/main.024b2fdd.chunk.js.map",
+    "runtime-main.js": "/hanyoonseok/react-movie-tutorial/static/js/runtime-main.dc4e6600.js",
+    "runtime-main.js.map": "/hanyoonseok/react-movie-tutorial/static/js/runtime-main.dc4e6600.js.map",
+    "static/js/2.da4374dc.chunk.js": "/hanyoonseok/react-movie-tutorial/static/js/2.da4374dc.chunk.js",
+    "static/js/2.da4374dc.chunk.js.map": "/hanyoonseok/react-movie-tutorial/static/js/2.da4374dc.chunk.js.map",
+    "index.html": "/hanyoonseok/react-movie-tutorial/index.html",
+    "static/css/main.15140509.chunk.css.map": "/hanyoonseok/react-movie-tutorial/static/css/main.15140509.chunk.css.map",
+    "static/js/2.da4374dc.chunk.js.LICENSE.txt": "/hanyoonseok/react-movie-tutorial/static/js/2.da4374dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc4e6600.js",
+    "static/js/2.da4374dc.chunk.js",
+    "static/css/main.15140509.chunk.css",
+    "static/js/main.024b2fdd.chunk.js"
+  ]
+}
